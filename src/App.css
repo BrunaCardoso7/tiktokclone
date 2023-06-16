@@ -11,11 +11,13 @@ body{
 .app__videos{
   background-color: gray;
   height: 100vh;
-  max-height: 600px;
+  max-height: 800px;
   width: 80%;
   max-width: 500px;
+  overflow: scroll;
   border-radius: 20px;
   scroll-snap-type: y mandatory;
+  position: relative;
 }
 /* esconde scrollbar para chrime safari e opera */
 .app__videos::-webkit-scrollbar{

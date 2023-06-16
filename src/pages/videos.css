@@ -1,11 +1,13 @@
 .conteiner__videos{
-    background-color: aqua;
     height: 100%;
     width: 100%;
     border-radius: 20px;
     position: relative;
 }
 .__video{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
     scroll-snap-align: start;
     
 }
