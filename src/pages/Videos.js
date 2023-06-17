@@ -1,5 +1,7 @@
 import React, {useRef, useState} from 'react'
 import './videos.css'
+import Videofooter from './componentes/footer/Videofooter'
+
 
 function Videos() {
   const videoRef = useRef(null)
@@ -22,9 +24,8 @@ function Videos() {
           onClick={handleStart}
           loop
           src='https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/brecker2.mp4?t=2023-05-22T19%3A37%3A45.885Z'
-        >
-
-        </video>
+        ></video>
+        <Videofooter/>
     </div>
   )
 }
