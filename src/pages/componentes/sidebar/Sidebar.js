@@ -1,11 +1,11 @@
-import "./sidebar.css";
 import React from 'react'
+import "./sidebar.css";
 
 function Sidebar() {
   return (
     <div>
-        <div className="conteiner__sidebar">
-    
+        <div className="sidebar">
+            opa, sidebar em andamento
         </div>
     </div>
   )

@@ -25,6 +25,7 @@ function Videos() {
           loop
           src='https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/brecker2.mp4?t=2023-05-22T19%3A37%3A45.885Z'
         ></video>
+        <Sidebar/>
         <Videofooter/>
     </div>
   )
